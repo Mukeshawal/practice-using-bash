@@ -1,0 +1,19 @@
+ls
+cd
+cd "D:\android"
+git init
+git remote add origin ...........url of repo........
+git remote -v
+git add 'filename.extension'
+
+or
+
+git add . ***********to add all files from current folder
+
+git commit -m "commit message"
+
+git push origin master
+
+
+
+
