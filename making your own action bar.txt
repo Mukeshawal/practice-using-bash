@@ -1,0 +1,17 @@
+1.Remove default action bar
+	add new resource layout activity_navigation_action
+
+
+2.	set 	android.support.v7.widget.Toolbar	instead of relative layout
+
+3. make private variable in ".....".java
+		private Toolbar mToolbar;
+
+4. Inside protected void onCreate add following code 	
+
+
+
+	mToolbar = (Toolbar)findViewById(R.id.nav_action_bar);
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle("WEAVER");
+        mToolbar.setSubtitle("Menu");
